@@ -1,0 +1,7 @@
+ - name: Basic Server Setup
+   hosts: local
+   become: true
+   tasks: 
+     - name: Basic Server Setup
+       debug: 
+         msg: "this is new setup"
